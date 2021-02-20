@@ -1,0 +1,72 @@
+p {font-size: 15px;}
+
+/* 見出し */
+.circlename {
+    font-size: 25px;
+    background-color: burlywood;
+    padding: 5px 10px;
+}
+#intro {font-size: 20px;}
+
+.pageTitle{
+    font-size: 20px;
+    background-color: burlywood;
+    padding: 5px 10px;
+}
+
+
+/* 余白 */
+#page{
+    width: 1200px;
+    margin: 0 auto;
+}
+.articleDetailHead {
+    /* border-bottom: solid 1px #CCCCCC; */
+    margin-bottom: 30px;
+}
+.articleDetailFoot {
+    margin-top: 30px;
+    border-top: solid 5px #cccccc;
+}
+
+/* グローバルナビのデザイン */
+#pageHead .globalNavi{
+    border: solid #cccccc;
+    border-width: 1px 0;
+    padding: 0 0;
+}
+#pageHead .globalNavi ul{
+    margin: 0;
+    padding: 0;
+}
+#pageHead .globalNavi ul::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+#pageHead .globalNavi ul li{
+    list-style: none;
+    width: 300px;
+    float: left;
+    border-left: solid 1px #cccccc;
+    padding: 0 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 15px;
+    line-height: 2.0;
+}
+#pageHead .globalNavi ul li:first-child{
+    border-left: none;
+}
+#pageHead .globalNavi ul li a{
+    color: inherit;
+    text-decoration: none;
+    display: block;
+}
+#pageHead .globalNavi ul li a:hover{
+    background-color: antiquewhite;
+}
+#pageHead .globalNavi ul li.current a{
+    background-color: antiquewhite;
+}
