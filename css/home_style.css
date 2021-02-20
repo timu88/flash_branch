@@ -70,3 +70,26 @@ p {font-size: 15px;}
 #pageHead .globalNavi ul li.current a{
     background-color: antiquewhite;
 }
+
+/*メールフォーム用ボタン*/
+#mailform .btn{
+    text-align: center;
+    margin: 0;
+    margin: 50px;
+}
+#mailform .btn a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: cadetblue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(top, lightblue, steelblue);
+    background-image: linear-gradient(to bottom, lightblue, steelblue);
+    border: 1px solid lightblue;
+    display: inline-block;
+}
+#mailform .btn a:hover{
+    opacity: 0.8;
+}
